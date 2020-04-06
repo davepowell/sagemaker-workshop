@@ -28,6 +28,7 @@
    8) Under *Git Repositories*:
        * select 'Clone a public git repository to this notebook instance only' from the dropdown
        * Enter 'https://github.com/seigenbrode/sagemaker-workshop/' under *Git Repository URL*
+       ![Notebook Instance Config](./images/create-notebook.png)
    8) Leave all other sections using default settings, then click **Create notebook instance**
    9) It will take a few moments for the **Status** to change to **InService**
    10) Once the notebook is showing **InService**, click the **Open Jupyter** link to open your hosted notebook instance
@@ -42,6 +43,7 @@
    2) Click **sagemaker-workshop**
    3) Click **Lab1-DataExploration-Processing.ipynb** to open Lab 1
    4) The remaining steps for this lab are performed within the notebook instance
+   ![Lab1](./images/notebook-lab1.png)
    
 ---
  
