@@ -37,7 +37,7 @@
  
  ## Lab 1: Data Exploration & Processing  
    
- From within the notebook instance we create in Lab Setup above:
+ From within the notebook instance we created in Lab Setup above:
  
    1) Go to the **Files** tab
    2) Click **sagemaker-workshop**
@@ -49,7 +49,7 @@
  
  ## Lab 2: Training
    
- From within the notebook instance we create in Lab Setup above:
+ From within the notebook instance we created in Lab Setup above:
  
    1) Go to the **Files** tab
    2) Click **sagemaker-workshop**
@@ -60,7 +60,7 @@
  
  ## Lab 3: Hosting & Evaluation
    
- From within the notebook instance we create in Lab Setup above:
+ From within the notebook instance we created in Lab Setup above:
  
    1) Go to the **Files** tab
    2) Click **sagemaker-workshop**
