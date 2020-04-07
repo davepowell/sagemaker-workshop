@@ -27,15 +27,10 @@ if __name__=='__main__':
     df = pd.read_csv(input_data_path)
     df.drop(['Posted_Date_yy', 'Transaction_Date_yy','Posted_Date_mm', 'Year-Month','Posted_Date_dd' ,'Vendor', 'Description','Agency Name','Merchant Category Code (MCC)'], axis=1, inplace=True)
     model_data = pd.get_dummies(df)
-    
-    #negative_examples, positive_examples = np.bincount(model_data['Recurring_Label'])
-    #print('Data after cleaning: {}, {} positive examples, {} negative examples'.format(model_data.shape, positive_examples, negative_examples))
-    
+        
     train_data, validation_data, test_data = np.split(model_data.sample(frac=1, random_state=1729), [int(0.7 * len(model_data)), int(0.9 * len(model_data))])   # Randomly sort the data then split out first 70%, second 20%, and last 10%
 
     print('Writing train and validation data to csv...')
-    #pd.concat([train_data['Recurring_Label_Yes'], train_data.drop(['Recurring_Label_No', 'Recurring_Label_Yes'], axis=1)], axis=1).to_csv('/opt/ml/processing/train/trainp.csv', index=False, header=False)
-    #pd.concat([validation_data['Recurring_Label_Yes'], validation_data.drop(['Recurring_Label_No', 'Recurring_Label_Yes'], axis=1)], axis=1).to_csv('/opt/ml/processing/validation/validationp.csv', index=False, header=False)
  
     train_features = pd.concat([train_data['Recurring_Label_Yes'], train_data.drop(['Recurring_Label_No', 'Recurring_Label_Yes'], axis=1)], axis=1)
     validation_features = pd.concat([validation_data['Recurring_Label_Yes'], validation_data.drop(['Recurring_Label_No', 'Recurring_Label_Yes'], axis=1)], axis=1)
