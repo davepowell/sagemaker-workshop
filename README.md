@@ -44,7 +44,7 @@
    
  ---
  
- For today's labs we will be working inside Jupyter Notebooks.  If you are unfamiliar with Jupyter below are a few quickstart resources you can review or reach out to your moderator for assistance: 
+ For today's labs we will be working inside Jupyter Notebooks.  If you are unfamiliar with Jupyter, below are a few quickstart resources you can review or reach out to your moderator for assistance: 
  
    * [Jupyter Notebook Cheatsheet](https://www.edureka.co/blog/cheatsheets/jupyter-notebook-cheat-sheet)
     
