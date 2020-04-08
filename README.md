@@ -17,11 +17,8 @@
    
    1) Click on the Event Engine URL that is provided by your moderators
    2) One person on your team should perform the following to set your team name:
-      * click **Set Team Name** 
-      ![EETeam](./images/ee-team.png)
-      * enter a Team Name (be creative!)
-      * click **Set Team Name** to confirm
-      ![EETeam](./images/ee-team2.png)
+      * click **Set Team Name** and enter a Team Name (Be Creative!)
+      * click **Set Team Name** green button on the bottom left to confirm
       
    3) Click on **AWS Console** followed by **Open AWS Console** to login to your lab account
    4)  Once logged in, ensure that you are on the US East (N.Virginia) us-east-1 region. You can verify this by checking the upper right hand corner showing the regions.
@@ -46,6 +43,12 @@
    10) Once the notebook is showing **InService**, click the **Open Jupyter** link to open your hosted notebook instance
    
  ---
+ 
+ For today's labs we will be working inside Jupyter Notebooks.  If you are unfamiliar with Jupyter below are a few quickstart resources you can review or reach out to your moderator for assistance: 
+ 
+   * [Jupyter Notebook Cheatsheet](https://www.edureka.co/blog/cheatsheets/jupyter-notebook-cheat-sheet)
+    
+   * [Basics of Jupyter Notebooks](https://towardsdatascience.com/a-beginners-tutorial-to-jupyter-notebooks-1b2f8705888a)
  
  ## Lab 1: Data Exploration & Processing  
    
